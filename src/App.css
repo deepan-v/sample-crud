@@ -1,0 +1,87 @@
+.main{
+  width: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main>h1{
+  width: 100%;
+  text-align: center;
+}
+.main form,.popup form{
+  width: 50%;
+  margin: auto;
+}
+
+.main form>div,.popup form>div{
+display: flex;
+margin: 10px 0;
+align-items: center;
+
+}
+.main form>div>label,.popup form>div>label{
+  width: 150px;
+}
+.main form>div>input,.popup form>div>input{
+  width: 100%;
+}
+.popup{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.589);
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup>form{
+  background-color: gray;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul  li{
+  margin-left: 50px;
+}
+
+.authendication{
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+}
+
+.authendication img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.UserDetails{
+  display: flex;
+}
+
+.authendication .detail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
